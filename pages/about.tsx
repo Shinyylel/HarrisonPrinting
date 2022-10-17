@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import * as React from "react";
 import Image from "next/image";
 
@@ -8,8 +7,8 @@ export default function About(){
             <div className="aboutBackground">
                 <div className="flex-item">
                         <h1 className="aboutContainer">ABOUT HARRISON PRINTING</h1>
-                    <div className="main-photo">
-                        <Image className="about-pic" src="/about.png" height="250" width="500"/>
+                    <div className="main-photo" style={{width: '430px', height: '250px', position: 'relative'}}>
+                        <Image className="about-pic" src="/about.png" layout='fill'/>
                     </div>
                     <div className="info-container">
                         <p>Harrison Printing and Promotions, which also

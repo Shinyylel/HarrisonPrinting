@@ -47,7 +47,8 @@ footer{
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
-    padding: 20px 5px 20px 100px;
+    padding-right: 30px;
+    padding-top: 10px;
     margin-top: 10px;
 }
 
@@ -222,6 +223,15 @@ footer{
 
     .footer-distributed .footer-center i{
         margin-left: 0;
+    }
+
+    .social-links{
+        padding-top: 40px;
+        justify-content: center;
+        float: none;
+    }
+    .footer-right{
+        padding-left: 10px;
     }
 
 }

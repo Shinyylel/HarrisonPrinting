@@ -65,7 +65,7 @@
         justify-content: center;
         padding-top: 50px;
         flex: 1;
-        font-size: 15px;
+        font-size: 14px;
         background-color: #525252;
         opacity: 100%;
         position: relative;
@@ -73,5 +73,9 @@
     }
     .gmap_canvas{
         width: 100%;
+    }
+    .main-header{
+        padding-top: 300px;
+
     }
 }

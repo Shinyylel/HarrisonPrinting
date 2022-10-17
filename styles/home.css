@@ -37,7 +37,6 @@
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
     box-sizing: border-box;
     cursor: pointer;
-    font-family: 'inter';
     font-size: 40%;
     height: 70px;
     line-height: 1.15;
@@ -56,7 +55,7 @@
 }
 
 .contactButton:hover{
-    box-shadow: 0 0px 2px 2px rgba(255, 140, 0, 1);
+    box-shadow: 0 1px 2px 2px rgba(255, 140, 0, 1);
 }
 
 @keyframes fadein {
@@ -66,7 +65,6 @@
     }
 
     100% {
-        padding-bottom: 0px;
         opacity: 1;
     }
 }
@@ -180,6 +178,65 @@
     opacity: 1;
 }
 
+.business-container{
+    animation-name: flexfade;
+    margin: 0 auto;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 15%;
+    color: white;
+}
+
+.learnButton {
+    animation-name: fadein;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    backface-visibility: hidden;
+    background-color: darkorange;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 70px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.learnButton:hover{
+    box-shadow: 0 1px 2px 2px rgba(255, 140, 0, 1);
+}
+
+.learnButton a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+
+.learnButton:hover {
+    background-color: #FFA501;
+}
+
+
 @media screen and (max-width: 580px) {
     .main-logo{
         width: 400px;
@@ -250,73 +307,21 @@
         text-align: center;
         padding-bottom: 20px;
     }
-    .business-container{
-
-    }
     .hours{
         font-size: 25px;
     }
+    .business-container{
+        padding-bottom: 60%;
+    }
+    .learnButton{
+        height: 50px;
+        width: 160px;
+        font-size: 12px;
+    }
+    .learnButton a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
 
-}
-
-.business-container{
-    animation-name: flexfade;
-    margin: 0 auto;
-    animation-duration: 2000ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    height: 45px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding-bottom: 15%;
-    color: white;
-}
-
-.learnButton {
-    animation-name: fadein;
-    animation-duration: 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    backface-visibility: hidden;
-    background-color: darkorange;
-    border-radius: 6px;
-    border-width: 0;
-    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    height: 70px;
-    line-height: 1.15;
-    margin: 12px 0 0;
-    outline: none;
-    overflow: hidden;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-transform: none;
-    transform: translateZ(0);
-    transition: all .2s,box-shadow .08s ease-in;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.hours{
-    padding-right: 10px;
-}
-
-.learnButton:hover{
-    box-shadow: 0 0px 2px 2px rgba(255, 140, 0, 1);
-}
-
-.learnButton a{
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-}
-
-
-.learnButton:hover {
-    background-color: #FFA501;
 }

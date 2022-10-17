@@ -1,10 +1,6 @@
 import type { NextPage } from 'next'
 import * as React from 'react';
-import Contact from './contact'
-import Background from './images/background.png';
 import Link from 'next/link';
-import mainLogo from'../public/harrisonlogo.png';
-import {type} from "os";
 import Image from "next/image";
 
 
@@ -37,8 +33,8 @@ const Home: NextPage = () => {
               ABOUT US
             </h1>
             <h1 className="box-2-text">
-              Since 2007, Harrison Printing a family owned company, has provided quality services and products. We try our hardest to meet out customers needs and
-              can guarantee quick and fast delivery.
+              Since 2007, Harrison Printing a family owned company, has provided quality services and products.
+              We try our hardest to meet out customers needs and can guarantee speedy delivery.
             </h1>
           </div>
           <div className="item">
@@ -54,8 +50,10 @@ const Home: NextPage = () => {
 
         <div className="business-container">
           <div>
-            <h1 className="hours"><Image className="hours" src="/hours.png" height="25" width="25"/> HOURS OF OPERATION</h1>
-            <h1 className="hours">Monday - Friday: 8:00AM - 5:00 PM</h1>
+            <h1 className="hours"><Image className="hours" src="/hours.png" height="25" width="25"/>HOURS OF OPERATION</h1>
+            <h1 className="hours">Monday - Friday</h1>
+            <h1 className="hours">9AM - 5PM</h1>
+
             <button className="learnButton">
               <Link href='./services'>Learn More</Link>
             </button>
