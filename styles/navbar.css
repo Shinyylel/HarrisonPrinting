@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.logo{
+    object-fit: cover;
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 2px;
+    height: auto;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #2e2e2e;
+    padding: 10px -5px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+}
+
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 6px;
+}
+
+/* Style the logo */
+#navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+/* Links on mouse-over */
+#navbar a:hover {
+    background-color: orange;
+    color: black;
+}
+
+/* Display some links to the right */
+#navbar-right {
+    float: right;
+    padding-right: 20px;
+}
+
+/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 580px) {
+    #navbar {
+        padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+    #navbar a {
+        float: none;
+        display: block;
+        padding: 5px;
+        text-align: left;
+    }
+    #navbar-right {
+        float: none;
+    }
+}

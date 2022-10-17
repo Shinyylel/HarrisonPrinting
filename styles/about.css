@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+.aboutBackground{
+    background-image: url(https://i.imgur.com/CckM9Ys.png);
+    background-size: cover;
+    padding-bottom: 213px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.flex-item {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 100px;
+}
+.flex-item img{
+    flex-grow:0;
+    flex-shrink:0;
+}
+
+.main-photo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+    box-shadow: 0 1px 8px 10px rgba(255,165,0, 1);
+}
+
+.info-container{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    width: 500px;
+}
+
+.aboutContainer{
+    display:flex;
+    color: orange;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.offerContainer{
+    display:flex;
+    color: orange;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.about-pic{
+    width: 900px;
+}
+
+@media screen and (max-width: 580px) {
+    .aboutContainer{
+        padding-top: 200px;
+        font-size: 25px;
+    }
+    .info-container{
+        width: 300px;
+    }
+
+}
