@@ -33,13 +33,10 @@ function MyApp({ Component, pageProps }: AppProps) {
             <h3><img className="footer-logo" src="https://i.imgur.com/lHEefJp.png" alt="Harrison Printing"/><span></span></h3>
 
             <p className="footer-links">
-              <Link href='./'>Home</Link>
-              |
-              <Link href='./contact'>Contact</Link>
-              |
-              <Link href='./././services'>Services</Link>
+              <Link className="footerlink" href='./'>Home</Link>
+              <Link className="footerlink" href='./contact'>Contact</Link>
+              <Link className="footerlink" href='./services'>Services</Link>
             </p>
-
             <p className="footer-company-name">© 2022 HARRISON PRINTING & PROMOTIONS LLC.</p>
           </div>
 
