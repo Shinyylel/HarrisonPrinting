@@ -30,9 +30,7 @@ export default function Contact(){
                             </dd>
                         </dl>
                         <div>
-                            <iframe width="600" height="600"
-                                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=558%20Eisenhower%20Dr%20Ste%20A+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                                <a href="https://www.maps.ie/distance-area-calculator.html"></a></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.4769663866476!2d-88.34810427310809!3d44.262883074964016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8803b0466fe3e88b%3A0xd58232ddbc8297ac!2sHarrison%20Printing%20%26%20Promotions!5e0!3m2!1sen!2sus!4v1675709922280!5m2!1sen!2sus" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
