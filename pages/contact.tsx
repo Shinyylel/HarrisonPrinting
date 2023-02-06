@@ -26,7 +26,7 @@ export default function Contact(){
                             <a className="contactLinks" href="tel:920-997-9940">920-997-9945 </a>
                             <dt className="first-grid">Email:</dt>
                             <dd className="second-grid">
-                                <a className="contactLinks" href="mailto:harrison.printing@yahoo.com">harrison.printing@yahoo.com</a>
+                                <a className="contactLinks" href="mailto:orders@harrsionprinting.net">orders@harrsionprinting.net</a>
                             </dd>
                         </dl>
                         <div>
