@@ -30,7 +30,9 @@ export default function Contact(){
                             </dd>
                         </dl>
                         <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.4769663866476!2d-88.34810427310809!3d44.262883074964016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8803b0466fe3e88b%3A0xd58232ddbc8297ac!2sHarrison%20Printing%20%26%20Promotions!5e0!3m2!1sen!2sus!4v1675709922280!5m2!1sen!2sus" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe width="600" height="600"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2857.2878725941064!2d-88.34991964834825!3d44.26289687900248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8803b0466fe3e88b%3A0xd58232ddbc8297ac!2sHarrison%20Printing%20%26%20Promotions!5e0!3m2!1sen!2sus!4v1675710272285!5m2!1sen!2sus;output=embed">
+                                <a href="https://www.maps.ie/distance-area-calculator.html"></a></iframe>
                         </div>
                     </div>
                 </div>
