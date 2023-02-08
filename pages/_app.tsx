@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             </div>
             <div>
               <i className="fa fa-envelope"></i>
-              <p><a href="mailto:support@eduonix.com">harrison.printing@yahoo.com</a></p>
+              <p><a href="mailto:orders@harrisonprinting.com">orders@harrisonprinting.com</a></p>
             </div>
           </div>
           <div className="footer-right">
@@ -63,12 +63,12 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <span>About the company</span>
                 Harrison Printing & Promotions was founded in 2007 by William Harrison.
                 Harrison Printing specializes in screen printing, embroidery,
-                banners, signs, and business card
+                banners, signs, and business cards
               </div>
             </div>
             <span>
                 <div className="social-links">
-                    <Link href="mailto:harrison.printing@yahoo.com">
+                    <Link href="mailto:orders@harrisonprinting.com">
                         <a className="social-links">
                             <Image src="/mail.png" height="45" width="45"/>
                         </a>
