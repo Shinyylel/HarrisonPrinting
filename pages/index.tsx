@@ -35,7 +35,7 @@ const Home: NextPage = () => {
               ABOUT US
             </h1>
             <h1 className="box-2-text">
-              Since 2007, Harrison Printing a family owned company, has provided quality services and products.
+              Since 2007, Harrison Printing, a family owned company, has provided quality services and products.
               We try our hardest to meet the customers needs and can guarantee speedy delivery.
             </h1>
           </div>
