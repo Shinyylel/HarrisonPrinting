@@ -11,18 +11,8 @@ export default function About(){
                         <Image className="about-pic" src="/about.png" layout='fill'/>
                     </div>
                     <div className="info-container">
-                        <p>Harrison Printing and Promotions, which also
-                            operates under the name Harrison Promotions,
-                            is located in Kimberly, Wisconsin. This organization
-                            primarily operates in the Color Printing: Gravure
-                            business / industry within the Printing, Publishing
-                            and Allied Industries sector. This Origination was
-                            started by William Harrison and has been started in
-                            2007. Harrison Printing and Promotions is estimated
-                            to generate $248,770 in annual revenues, and employs
-                            approximately 2 people at this single location. This
-                            organization is engaged in manufacturing activities
-                            at this facility.</p>
+                        <p>Since 2007, Harrison Printing a family owned company, has provided quality services and products.
+                        We try our hardest to meet the customers needs and can guarantee speedy delivery.</p>
                     </div>
                 </div>
             </div>
