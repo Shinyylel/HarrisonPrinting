@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             <div>
               <i className="fa fa-map-marker"></i>
               <p><span> 558 Eisenhower Dr Ste A </span>
-                Kimberly, Wisconsin 54316</p>
+                Kimberly, Wisconsin 54136</p>
             </div>
 
             <div>
@@ -53,7 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             </div>
             <div>
               <i className="fa fa-envelope"></i>
-              <p><a href="mailto:orders@harrisonprinting.com">orders@harrisonprinting.com</a></p>
+              <p><a href="mailto:orders@harrisonprinting.net">orders@harrisonprinting.net</a></p>
             </div>
           </div>
           <div className="footer-right">
