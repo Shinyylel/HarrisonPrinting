@@ -68,7 +68,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             </div>
             <span>
                 <div className="social-links">
-                    <Link href="mailto:orders@harrisonprinting.com">
+                    <Link href="mailto:orders@harrisonprinting.net">
                         <a className="social-links">
                             <Image src="/mail.png" height="45" width="45"/>
                         </a>
