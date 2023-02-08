@@ -55,7 +55,7 @@ export default function Services(){
                 </div>
                 <div className="item2">
                     <h1 className="box-3-title2">
-                        SPECIALTY SERVICES
+                        SPECIALTY
                     </h1>
                     <dl className="main-dl2">
                         <dt className="first-grid2">✔ Direct Mailing</dt>
