@@ -61,9 +61,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 
               <div>
                 <span>About the company</span>
-                Harrison Printing & Promotions was founded in 2007 by William Harrison.
-                Harrison Printing specializes in screen printing, embroidery,
-                banners, signs, and business cards
+                Harrison Printing & Promotions was founded in 2007 by William Harrison. 
+                Harrison Printing specializes in Screen Printing, Embroidery, Banners Etc.
               </div>
             </div>
             <span>
