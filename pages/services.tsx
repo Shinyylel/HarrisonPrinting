@@ -66,8 +66,6 @@ export default function Services(){
                         <dt className="first-grid2">✔ Embossing</dt>
                         <dd className="second-grid2">✔ Foil Stamping</dd>
                         <dt className="first-grid2">✔ Debossing</dt>
-                        <dt className="first-grid2">✔ Hat Press</dt>
-                        <dd className="second-grid2">✔ Laser Cutting</dd>
                     </dl>
                 </div>
             </div>
