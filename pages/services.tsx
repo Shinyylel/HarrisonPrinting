@@ -46,10 +46,10 @@ export default function Services(){
                         <dt className="first-grid2">✔ Trimming</dt>
                         <dd className="second-grid2">✔ Padding</dd>
                         <dt className="first-grid2">✔ Cutting</dt>
-                        <dd className="second-grid2">✔ Plastic Coiling</dd>
+                        <dd className="second-grid2">✔ Coiling</dd>
                         <dt className="first-grid2">✔ Hole Punching</dt>
-                        <dd className="second-grid2">✔ Spiral Binding</dd>
-                        <dt className="first-grid2">✔ Shrink Wrapping</dt>
+                        <dd className="second-grid2">✔ Binding</dd>
+                        <dt className="first-grid2">✔ Shrink Wrap</dt>
                         <dd className="second-grid2">✔ Numbering</dd>
                     </dl>
                 </div>
@@ -66,6 +66,8 @@ export default function Services(){
                         <dt className="first-grid2">✔ Embossing</dt>
                         <dd className="second-grid2">✔ Foil Stamping</dd>
                         <dt className="first-grid2">✔ Debossing</dt>
+                        <dt className="first-grid2">✔ Hat Press</dt>
+                        <dd className="second-grid2">✔ Laser Cutting</dd>
                     </dl>
                 </div>
             </div>
