@@ -6,9 +6,9 @@ export default function About(){
         <div className="main-background">
             <div className="aboutBackground">
                 <div className="flex-item">
-                        <h1 className="aboutContainer">About us</h1>
                     <div className="main-photo" style={{width: '430px', height: '250px', position: 'relative'}}>
                         <Image className="about-pic" src="/IMG_0240.JPG" layout='fill'/>
+                             <h1 className="aboutContainer">About us</h1>
                     </div>
                     <div className="info-container">
                        <div className="info-container">
