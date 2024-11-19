@@ -10,6 +10,7 @@ export default function About(){
                         <Image className="about-pic" src="/IMG_0240.JPG" layout='fill'/>
                     </div>
                     <div className="info-container">
+                            <h1 className="aboutContainer">About us</h1>
                        <div className="info-container">
                             <h1 className="aboutContainer">About us</h1>
                             <p>Harrison Printing and Promotions has been your trusted partner for high-quality promotional products, screen printing, paper goods, and embroidery since 2007. Founded by William Harrison, we have built a reputation for exceptional craftsmanship and personalized service.</p>
