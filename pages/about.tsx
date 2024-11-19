@@ -8,8 +8,8 @@ export default function About(){
                 <div className="flex-item">
                     <div className="main-photo" style={{width: '430px', height: '250px', position: 'relative'}}>
                         <Image className="about-pic" src="/IMG_0240.JPG" layout='fill'/>
-                             <h1 className="aboutContainer">About us</h1>
                     </div>
+                        <h1 className="aboutContainer">About us</h1>
                     <div className="info-container">
                        <div className="info-container">
                             <p>Harrison Printing and Promotions has been your trusted partner for high-quality promotional products, screen printing, paper goods, and embroidery since 2007. Founded by William Harrison, we have built a reputation for exceptional craftsmanship and personalized service.</p>
